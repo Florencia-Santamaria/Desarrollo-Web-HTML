@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Coiny&family=Roboto:wght@400;700&display=swap');
+
+
+* {box-sizing: border-box;}
+body {
+    width: auto;
+    color: #333;
+    font: 400;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 10px;
+    
+}
+
+
+nav h1,
+footer h1 {
+    font-family: 'Coiny', cursive;
+
+}
+
+nav h1 {
+    margin-right: auto;
+}
+
+nav a,
+footer a {
+    margin-left: 20px;
+    color: #7A7A7A;
+    text-decoration: none;
+    
+}
+
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav {
+    display:flex;
+    justify-content: flex-end;
+    align-items:flex-start;
+     padding: 10px;
+}
+
+
+p { border: none;}
+
+
+
+nav a {
+    text-transform: capitalize;
+}
+
+header h1 {
+    font-weight: 700;
+    font-size: 41px;
+}
+
+
+
+h1,h2,h3,h4 {
+    font:100;
+    color: black ;
+}
+
+h2,h3 {
+    font-size: 20px;
+    background-color: #FCEE21;
+    
+ }
+
+h3 {
+    font-size: 26px;
+}
+
+h2 {
+    font-weight: none;
+}
+
+
+#foto-header{
+    width: 60%;
+    height: 500px;
+    margin-left: 30px;
+   
+}
+
+#foto-servicios { width: 40%; margin-left: 600px ; }
+
+
+footer,
+main,
+header{
+    width: 100%;
+
+}
+
+footer {
+    height: 100px;
+    padding: 10px;
+    background-color: #FCEE21;
+    width: 100%;
+
+}
+
+
+h4 {
+    margin: 10;
+    font-size: 51px;
+    color: white;
+    background-color: black;
+    line-height: 100px;
+    padding: 4px;
+    margin-top: 10px;
+   
+}
+
+footer h1 {
+    font: 100px;
+}
+
+section {
+    width: 80%;
+}
+
+main {
+    font-size: 21px;
+}
+
+
+label, textarea{
+    display: block;
+}
+
+form span { color: #C1272D;}
+form{ width: 50%; padding: 20px; margin-top: 20px; }
+input,textarea{width: 60%; border: 1px solid black; height: 50px;}
+
+button{
+    width: 30%;
+    background-color: black;
+    color: white;
+}
+
+#comunicar7{
+    font-size: 2em ;
+    background-color: #ecdf24;
+}
+
+#links a{
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+
+.contenedor {
+    font-size: 1em;
+    font-weight: 200;
+    width: 100%;
+    border-bottom: 1px solid gray;
+
+   
+}
+.contenedor ol {
+    list-style-position: inside;
+
+}
+
+#links, nav h1 {
+    width: 33.33%;
+    margin: 0;
+}
+
+.redes{
+    color: #808080;
+    font-weight: 700;
+    display: flex;
+    }
+   
+.contenedorImg{ padding: 20px;height: auto;width: 20%;text-align: center;}
+
+
+footer a {
+    text-decoration: underline;
+
+}
+
+
+
